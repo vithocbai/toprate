@@ -622,7 +622,7 @@
 /* X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
     .container {
-        max-width: 1170px;
+        max-width: 1140px;
     }
 
     .g-xl-0 {

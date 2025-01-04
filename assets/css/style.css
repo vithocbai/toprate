@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+:root {
+    --primary-color: #393a3b;
+    --primary-heading: #f1666a;
+}
 html {
     font-size: 62.5%;
 }
@@ -25,7 +29,7 @@ a {
     padding: 12px 24px;
     font-size: 2rem;
     font-weight: 500;
-    background-color: #F1666A;
+    background-color: #f1666a;
     border-radius: 25px 25px 25px 25px;
     margin: 0 auto;
     color: #fff;
@@ -71,9 +75,9 @@ a {
 }
 
 /* === Hero === */
-.hero { 
+.hero {
     min-height: 634px;
-    background-color: #F9F9F9;
+    background-color: #f9f9f9;
     background-image: url(../img/banner.png);
     background-repeat: no-repeat;
     background-position: bottom center;
@@ -84,7 +88,7 @@ a {
     font-size: 4.8rem;
     text-align: center;
     font-weight: 400;
-    margin-bottom: 40px;
+    margin-bottom: 44px;
 }
 
 .hero__wrap {
@@ -96,13 +100,13 @@ a {
 }
 
 .hero__toprate {
-    color: #f1666a;
+    color: var(--primary-heading);
 }
 
 .hero__desc {
     max-width: 1007px;
     text-align: center;
-    color: #393a3b;
+    color: var(--primary-color);
     font-size: 2rem;
     font-weight: 400;
     margin-left: auto;
@@ -112,3 +116,76 @@ a {
     padding-bottom: 80px;
 }
 
+/* === Services */
+.services__head {
+    padding: 20px;
+}
+
+.services__heading {
+    text-align: center;
+    color: var(--primary-color);
+    line-height: 1;
+    font-size: 48px;
+    font-weight: 600;
+    margin: 30px 0 32px;
+}
+
+.services__desc {
+    text-align: center;
+    color: var(--primary-color);
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.services__media,
+.services__content {
+    padding: 20px !important;
+}
+
+.services__img {
+    max-width: 100%;
+}
+
+.services__number {
+    font-weight: 400;
+    font-size: 4.8rem;
+    border-bottom: 2px solid #ccc;
+    margin-right: 5px;
+}
+
+.services__sub-heading {
+    color: var(--primary-heading);
+    font-size: 2.4rem;
+    font-weight: 600;
+    line-height: 1;
+    margin-bottom: 20px;
+}
+
+.services__title,
+.services__content-desc {
+    line-height: 30px;
+    color: var(--primary-color);
+    font-size: 1.6rem;
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+
+.services__title {
+    font-weight: 600;
+}
+
+.services__item {
+    display: flex;
+    color: var(--primary-color);
+    line-height: 30px;
+    margin-bottom: 12px;
+    margin-left: -10px;
+}
+
+.services__item::before {
+    display: inline-block;
+    content: url('https://toprate.io/wp-content/uploads/2022/04/dau-cong-1.png');
+    margin-right: 10px;
+    padding: 3px 0px 3px 10px;
+}
