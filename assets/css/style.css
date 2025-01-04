@@ -189,3 +189,55 @@ a {
     margin-right: 10px;
     padding: 3px 0px 3px 10px;
 }
+
+/* Services__programming-language */
+.services__column {
+   padding: 20px !important;
+}
+
+.services__row-title {
+    color: #575757;
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.services__section {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+
+}
+
+.services__section figure {
+    margin-bottom: 24px;
+    width: 100px;
+}
+
+.services__name {
+    color: var(--primary-color);
+    font-size: 1.6rem;
+    opacity: .8;
+    padding-top: 5px;
+    line-height: 30px;
+}
+
+.services__img-langue {
+    width: 50px; 
+    height: 35px; 
+    object-fit: contain;
+} 
+
+.services__img-32 {
+    width: 32px;
+    height: 32px;
+}
+
+.nodejs-img {
+    width: 26px;
+    height: 30px;
+}
+
+.java-img {
+    width: 22px;
+    height: 30px;
+}
