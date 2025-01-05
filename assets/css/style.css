@@ -185,27 +185,35 @@ a {
 
 .services__item::before {
     display: inline-block;
-    content: url('https://toprate.io/wp-content/uploads/2022/04/dau-cong-1.png');
+    content: url("https://toprate.io/wp-content/uploads/2022/04/dau-cong-1.png");
     margin-right: 10px;
     padding: 3px 0px 3px 10px;
 }
 
 /* Services__programming-language */
 .services__column {
-   padding: 20px !important;
+    padding: 20px !important;
 }
 
 .services__row-title {
     color: #575757;
     font-size: 1.6rem;
     font-weight: 700;
-    margin-bottom: 40px;
+    margin-bottom: 34px;
+    line-height: 30px;
+}
+
+.title-mobile {
+    margin-bottom: 24px;
+}
+
+.language-flatform {
+    color: #7a7a7a;
 }
 
 .services__section {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
-
+    grid-template-columns: repeat(3, 1fr);
 }
 
 .services__section figure {
@@ -216,16 +224,16 @@ a {
 .services__name {
     color: var(--primary-color);
     font-size: 1.6rem;
-    opacity: .8;
+    opacity: 0.8;
     padding-top: 5px;
     line-height: 30px;
 }
 
 .services__img-langue {
-    width: 50px; 
-    height: 35px; 
+    width: 50px;
+    height: 35px;
     object-fit: contain;
-} 
+}
 
 .services__img-32 {
     width: 32px;
@@ -240,4 +248,9 @@ a {
 .java-img {
     width: 22px;
     height: 30px;
+}
+
+.flutter-img {
+    width: 36px;
+    height: 36px;
 }
