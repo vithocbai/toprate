@@ -56,19 +56,43 @@ select {
 .navigation__active {
     color: var(--primary-heading) !important;
 }
+
 /* === Header === */
 .header {
     background-color: #f9f9f9;
 }
 
+.header-fixed {
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    width: 100%;
+    height: 60px;
+    transition: all 0.3s ease;
+}
+
+.header-fixed.scrolled {
+    box-shadow: 0 2px 2px -2px rgba(0, 0, 0, 0.2);
+}
+
+
+.header__container {
+    max-width: 1180px;
+    padding: 20px 40px;
+}
+
+.header__height {
+    padding: 10px 40px !important;
+}
+
 .header .logo {
     width: 148px;
+    transition : width 0.3s linear;
 }
 
 .menu {
     display: flex;
     align-items: center;
-    padding: 20px;
 }
 
 .navigation {
@@ -96,6 +120,7 @@ select {
 
 /* === Hero === */
 .hero {
+    padding-top: 80px;
     min-height: 634px;
     background-color: #f9f9f9;
     background-image: url(../img/banner.png);
