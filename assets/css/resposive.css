@@ -1,0 +1,50 @@
+/* PC */
+@media screen and (min-width: 992px) {
+    .bars {
+        display: none;
+    }
+}
+
+/* Tablet & mobile */
+@media screen and (max-width: 991.98px) {
+    .testimonial__desc {
+        width: 100%;
+        height: 50%;
+        overflow-y: scroll;
+    }
+
+    .customers__brand {
+        padding: 15px;
+    }
+}
+
+/* Table */
+@media screen and (min-width: 768px) and (max-width: 991.98px) {
+    .bars {
+        display: none;
+    }
+
+    .header__height {
+        padding: 8px 20px !important;
+    }
+
+    .testimonial__desc {
+        width: 100%;
+        height: 50%;
+        overflow-y: scroll;
+    }
+}
+
+/* Mobile large*/
+@media screen and (max-width: 767.98px) {
+    .navigation {
+        display: none;
+    }
+    .bars {
+        margin-left: auto;
+    }
+}
+
+/* Mobile small */
+@media screen and (max-width: 575.98px) {
+}

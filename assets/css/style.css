@@ -135,7 +135,11 @@ select {
 }
 
 .hero__wrap {
-    padding: 30px 120px 0px 120px;
+    padding: 30px 120px 10px 120px;
+}
+
+.hero__content {
+    padding: 0 120px;
 }
 
 .hero__welcome {
@@ -460,6 +464,9 @@ select {
 
 .customers__brand {
     padding: 30px;
+}
+.customers__img {
+    max-width: 100%;
 }
 
 /* === Contact === */

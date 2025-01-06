@@ -31,6 +31,7 @@
         <link rel="stylesheet" href="./assets/css/reset.css" />
         <link rel="stylesheet" href="./assets/css/grid.css" />
         <link rel="stylesheet" href="./assets/css/style.css" />
+        <link rel="stylesheet" href="./assets/css/resposive.css" />
     </head>
     <body>
         <!-- Header -->
@@ -75,6 +76,11 @@
                             </li>
                         </ul>
                     </nav>
+
+                    <!-- Bars Mobile -->
+                    <!-- <div class="bars">
+                        <i class="fa-solid fa-bars"></i>
+                    </div> -->
                 </div>
             </div>
         </header>
@@ -89,16 +95,18 @@
                             <span class="hero__welcome">Welcome to</span>
                             <span class="hero__toprate">TopRate Vietnam</span>
                         </h1>
-                        <p class="hero__desc">
-                            We are a technology company based in Vietnam, specializing in <br />
-                            Consulting & Software Development. Founded in 2019 by a group <br />
-                            of IT professionals with great experience and passion for technology. <br />
-                            Our company provides advanced technical solutions and has <br />
-                            has been helping many customers in Vietnam and around the world. We are proud of <br />
-                            the quality of our work and constantly looking for new ways to improve our know-how and
-                            capabilities.
-                        </p>
-                        <a href="#" class="btn hero__explore-btn">Explore</a>
+                        <div class="hero__content">
+                            <p class="hero__desc">
+                                We are a technology company based in Vietnam, specializing in <br />
+                                Consulting & Software Development. Founded in 2019 by a group <br />
+                                of IT professionals with great experience and passion for technology. <br />
+                                Our company provides advanced technical solutions and has <br />
+                                has been helping many customers in Vietnam and around the world. We are proud of <br />
+                                the quality of our work and constantly looking for new ways to improve our know-how and
+                                capabilities.
+                            </p>
+                            <a href="#" class="btn hero__explore-btn">Explore</a>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -113,10 +121,10 @@
                     <!-- Service Web -->
                     <div class="services__web">
                         <div class="row services__inner">
-                            <a href="" class="services__media col-lg-6">
+                            <a href="" class="services__media col-md-6">
                                 <img src="./assets/img/services-media.png" alt="" class="services__img" />
                             </a>
-                            <div class="services__content col-lg-6">
+                            <div class="services__content col-md-6">
                                 <h3 class="services__sub-heading">
                                     <span class="services__number">01</span>
                                     Web Development
@@ -139,7 +147,7 @@
                         <!-- Services Row -->
                         <div class="row services__row">
                             <!-- Column 1 -->
-                            <div class="services__column col-lg-4">
+                            <div class="services__column col-md-6">
                                 <h4 class="services__row-title">Programming language</h4>
                                 <div class="services__section">
                                     <figure>
@@ -182,7 +190,7 @@
                             </div>
 
                             <!-- Column 2 -->
-                            <div class="services__column col-lg-4">
+                            <div class="services__column col-md-6">
                                 <h4 class="services__row-title">Database</h4>
                                 <div class="services__section">
                                     <figure>
@@ -209,7 +217,7 @@
                             </div>
 
                             <!-- Column 3 -->
-                            <div class="services__column col-lg-4">
+                            <div class="services__column col-md-6">
                                 <h4 class="services__row-title">Web platform</h4>
                                 <div class="services__section">
                                     <figure>
@@ -244,7 +252,7 @@
                     <!-- Services Mobile-->
                     <div class="services__mobile">
                         <div class="row services__inner">
-                            <div class="services__content col-lg-6">
+                            <div class="services__content col-md-6">
                                 <h3 class="services__sub-heading">
                                     <span class="services__number">02</span>
                                     Mobile application development
@@ -256,7 +264,7 @@
                                     Android Tablet.
                                 </p>
                             </div>
-                            <a href="" class="services__media col-lg-6">
+                            <a href="" class="services__media col-md-6">
                                 <img src="./assets/img/services-media-mobile.png" alt="" class="services__img" />
                             </a>
                         </div>
@@ -264,7 +272,7 @@
                         <!-- Services Row -->
                         <div class="row services__row">
                             <!-- Column 1 -->
-                            <div class="services__column col-lg-4">
+                            <div class="services__column col-md-6">
                                 <h4 class="services__row-title title-mobile">Services we provide</h4>
                                 <ul class="services__list">
                                     <li class="services__item">Research – Analyze requirements</li>
@@ -278,7 +286,7 @@
                             </div>
 
                             <!-- Column 2 -->
-                            <div class="services__column col-lg-4">
+                            <div class="services__column col-md-6">
                                 <h4 class="services__row-title title-mobile">Some of developed applications</h4>
                                 <ul class="services__list">
                                     <li class="services__item">Applications for telecommunications, ebanking</li>
@@ -291,7 +299,7 @@
                             </div>
 
                             <!-- Column 3 -->
-                            <div class="services__column col-lg-4">
+                            <div class="services__column col-md-6">
                                 <h4 class="services__row-title title-mobile language-flatform">Language – Platform</h4>
                                 <div class="services__section">
                                     <figure>
@@ -330,7 +338,7 @@
                     <!-- Labor -->
                     <div class="services__labor">
                         <div class="row services__inner">
-                            <div class="services__content col-lg-6">
+                            <div class="services__content col-md-6">
                                 <h3 class="services__sub-heading">
                                     <span class="services__number">03</span>
                                     Labor Service
@@ -359,7 +367,7 @@
                                     </li>
                                 </ul>
                             </div>
-                            <a href="#" class="services__media col-lg-6">
+                            <a href="#" class="services__media col-md-6">
                                 <img src="./assets/img/services-media-labor.png" alt="" class="services__img" />
                             </a>
                         </div>
@@ -372,7 +380,7 @@
                 <div class="container">
                     <div class="row testimonial__row">
                         <!-- card-1 -->
-                        <div class="col col-lg-4 testimonial__col">
+                        <div class="col col-md-4 testimonial__col">
                             <div class="testimonial__card">
                                 <div class="testimonial__quote">
                                     <i class="fa-solid fa-quote-left"></i>
@@ -410,7 +418,7 @@
                         </div>
 
                         <!-- card-2 -->
-                        <div class="col col-lg-4 testimonial__col">
+                        <div class="col col-md-4 testimonial__col">
                             <div class="testimonial__card">
                                 <div class="testimonial__quote">
                                     <i class="fa-solid fa-quote-left"></i>
@@ -447,7 +455,7 @@
                         </div>
 
                         <!-- card-3 -->
-                        <div class="col col-lg-4 testimonial__col">
+                        <div class="col col-md-4 testimonial__col">
                             <div class="testimonial__card">
                                 <div class="testimonial__quote">
                                     <i class="fa-solid fa-quote-left"></i>
@@ -495,7 +503,7 @@
                         <h1 class="customer__heading">Customers</h1>
                         <p class="customer__desc">Our partners and customers</p>
                         <!-- row-1 -->
-                        <div class="row customers__row">
+                        <div class="row row-cols-md-5 customers__row">
                             <div class="col">
                                 <div class="customers__brand">
                                     <img class="customers__img" src="./assets/img/mb.png" alt="" />
@@ -523,7 +531,7 @@
                             </div>
                         </div>
                         <!-- row-2 -->
-                        <div class="row customers__row">
+                        <div class="row row-cols-md-5 customers__row">
                             <div class="col">
                                 <div class="customers__brand">
                                     <img class="customers__img" src="./assets/img/equest.png" alt="" />
