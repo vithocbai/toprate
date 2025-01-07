@@ -10,6 +10,7 @@
 }
 
 html {
+    scroll-behavior: smooth;
     font-size: 62.5%;
 }
 
@@ -83,7 +84,7 @@ select {
     padding: 8px 40px !important;
 }
 
-.header .logo {
+.logo {
     width: 148px;
     transition: width 0.3s linear;
 }
@@ -115,6 +116,10 @@ select {
     text-decoration-color: #f1666a;
     -moz-text-decoration-color: #f1666a;
     text-decoration-thickness: 5px;
+}
+
+.bars.scrolled {
+    padding-right: 14px;
 }
 
 /* === Hero === */
@@ -466,7 +471,6 @@ select {
 .customers__row {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    
 }
 
 .customers__brand {
