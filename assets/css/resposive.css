@@ -7,6 +7,15 @@
 
 /* Tablet & mobile */
 @media screen and (max-width: 991.98px) {
+    .container {
+        max-width: 100%;
+        margin: 0;
+    }
+
+    .services__sub-heading {
+        line-height: 40px;
+    }
+
     .testimonial__desc {
         width: 100%;
         height: 50%;
@@ -28,6 +37,10 @@
         padding: 8px 20px !important;
     }
 
+    .hero__content {
+        padding: 0 106px;
+    }
+
     .testimonial__desc {
         width: 100%;
         height: 50%;
@@ -37,14 +50,114 @@
 
 /* Mobile large*/
 @media screen and (max-width: 767.98px) {
-    .navigation {
+    .header__container {
+        padding: 20px 30px;
+    }
+
+    .header__height {
+        padding: 0px !important;
+        margin-left: 10px;
+    }
+
+    .logo {
+        padding: 10px 0;
+        margin-left: 10px;
+    }
+
+    .header .navigation {
         display: none;
     }
+
+    .header-mobile > .navigation {
+        display: block;
+    }
+
     .bars {
         margin-left: auto;
+    }
+
+    .bars .fa-bars {
+        padding: 0px 22px;
+        line-height: 60px;
+        cursor: pointer;
+        color: #54595f;
+        background-color: rgba(0, 0, 0, 0.02);
+    }
+
+    .hero__wrap {
+        padding: 50px 15px 15px 15px;
+    }
+
+    .hero__content {
+        padding: 5px;
+    }
+
+    .hero__desc {
+        margin-bottom: 0;
+    }
+
+    .services__media {
+        text-align: center;
+    }
+
+    .services__section {
+        padding-left: 20px;
+    }
+
+    .testimonial__content {
+        max-width: 100%;
+    }
+
+    .testimonial__row {
+        padding-bottom: 60px;
+    }
+
+    .testimonial__col {
+        margin-bottom: 80px;
+    }
+
+    .testimonial__col:last-child {
+        margin-bottom: 0;
+    }
+
+    .testimonial__quote {
+        left: 55%;
+    }
+
+    .testimonial__avatar {
+        left: 40%;
+    }
+
+    .testimonial__decorate-1 {
+        left: 220%;
+    }
+
+    .customers__brand {
+        text-align: center;
+        padding: 30px;
+    }
+
+    .customers__row {
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 
 /* Mobile small */
 @media screen and (max-width: 575.98px) {
+    .contact__row,
+    .contact__col,
+    .services__content,
+    .services__column,
+    .services__media,
+    .testimonial__col {
+        max-width: 100%;
+    }
+
+    .testimonial__decorate-1 {
+        left: 140%;
+    }
+
+    .contact__col {
+        width: 100% !important;
+    }
 }

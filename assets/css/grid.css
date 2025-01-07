@@ -16,7 +16,7 @@
     flex-wrap: wrap;
     margin-left: calc(-1 * var(--spacer) / 2);
     margin-right: calc(-1 * var(--spacer) / 2);
-    row-gap: var(--row-gap, 0); 
+    row-gap: var(--row-gap, 0);
 }
 
 .gap-row-0 {
@@ -748,5 +748,3 @@
         --row-cols-number: 6;
     }
 }
-
-

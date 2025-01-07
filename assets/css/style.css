@@ -99,6 +99,7 @@ select {
 
 .navigation__list {
     display: flex;
+    flex-wrap: wrap;
     margin-left: auto;
 }
 
@@ -118,7 +119,7 @@ select {
 
 /* === Hero === */
 .hero {
-    margin-top: 60px;
+    margin-top: 72px;
     min-height: 634px;
     background-color: #f9f9f9;
     background-image: url(../img/banner.png);
@@ -462,6 +463,12 @@ select {
     margin-bottom: 36px;
 }
 
+.customers__row {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    
+}
+
 .customers__brand {
     padding: 30px;
 }
@@ -522,6 +529,7 @@ select {
     min-height: 40px;
     font-weight: 400;
 }
+
 .contact__input::placeholder {
     opacity: 0.6;
 }
@@ -560,6 +568,10 @@ select {
     align-items: center;
     justify-content: center;
     margin-bottom: 20px;
+}
+
+.footer__nav > .navigation__list {
+    justify-content: center;
 }
 
 .footer__nav .navigation__link {
