@@ -1,0 +1,88 @@
+{
+    "navigation__link": ["Trang chủ", "Dịch vụ", "Thông tin", "Liên hệ"],
+    "hero": {
+        "welcome": "Giới thiệu về ",
+        "toprate": "TopRate",
+        "desc": "Chúng tôi là một công ty công nghệ có trụ sở tại Việt Nam, chuyên về <br> Tư vấn & Phát triển Phần mềm. Được thành lập vào năm 2019 bởi một nhóm <br> của các chuyên gia CNTT có kinh nghiệm và niềm đam mê lớn đối với công nghệ. <br> Công ty chúng tôi cung cấp các giải pháp kỹ thuật tiên tiến đã và đang giúp đỡ rất nhiều khách hàng tại Việt Nam và trên thế giới. Chúng tôi tự hào về <br> chất lượng công việc của chúng tôi và không ngừng tìm kiếm những cách thức mới để cải thiện bí quyết và năng lực của chúng tôi.",
+        "explore": "Xem thêm"
+    },
+    "services": {
+        "heading": "Dịch vụ",
+        "desc": "Dịch vụ phát triển của TopRate",
+        "webDevelopment": {
+            "title": "Phát triển Web",
+            "number": "01",
+            "description": "Với phương châm lấy khách hàng là trung tâm, Toprate đã tư vấn, xây dựng, phát triển và triển khai các ứng dụng web trên các nền tảng đa dạng khác nhau, phù hợp với từng khách hàng. Qua đó giúp đối tác tiếp cận nhanh nhất với khách hàng của mình, quảng bá được các sản phẩm, dịch vụ chất lượng và tin cậy của mình tới khách hàng.",
+            "servicesTitle": "Các dịch vụ mà chúng tôi cung cấp:",
+            "service1": "Giải pháp tư vấn và thiết kế các ứng dụng web",
+            "service2": "Phát triển các ứng dụng web đa nền tảng",
+            "service3": "Bảo trì, nâng cấp và tối ưu các ứng dụng web",
+            "row-title1": "Ngôn ngữ lập trình",
+            "row-title2": "Cơ sở dữ liệu",
+            "row-title3": "Nền tảng web"
+        },
+        "mobile": {
+            "number": "02",
+            "title": "Phát triển ứng dụng di động",
+            "content-desc": "Chúng tôi chuyên phát triển các ứng dụng native trên các nền tảng di động khác nhau, với hệ thống backends đa dạng, ngoài ra chúng tôi còn cung cấp dịch vụ phát triển ứng dụng cross-platform với trải nghiệm người dùng và giao diện chất lượng cao.",
+            "title-mobile1": "Các dịch vụ cung cấp:",
+            "title-mobile2": "Một số app đã phát triển",
+            "title-mobile3": "Ngôn ngữ – Nền tảng",
+            "services__itemc11": "Nghiên cứu – Phân tích yêu cầu",
+            "services__itemc12": "Thiết kế giao diện người dùng",
+            "services__itemc13": "Làm chi tiết yêu cầu, luồng nghiệp vụ",
+            "services__itemc14": "Tạo thiết kế chi tiết",
+            "services__itemc15": "Xây dựng BackEnd, thiết kế cơ sở dữ liệu",
+            "services__itemc16": "Xây dựng ứng dụng",
+            "services__itemc17": "Phát hành ứng dụng",
+            "services__itemc21": "Các ứng dụng về viễn thông, ngân hàng",
+            "services__itemc22": "Các ứng dụng multi-media",
+            "services__itemc23": "Các ứng dụng về học trực tuyến",
+            "services__itemc24": "Các ứng dụng nội bộ của doanh nghiệm : chấm công, nhân sự, kế toán"
+        },
+        "labor": {
+            "number": "03",
+            "title": "Dịch vụ Labor",
+            "content-desc": "Giải pháp ODC cho việc phát triển phần mềm <br> Giảm thiểu chi phí thiết lập cơ sở hạ tầng kinh doanh với <br> đội ngũ và trang thiết bị cơ sở hạ tầng mạnh mẽ và hiện đại. Toprate cung cấp <br> nguồn nhân lực CNTT dồi dào với  <br> trình độ cao. Các ODC luôn có sự hỗ trợ về kỹ thuật, đồng thời có <br> các chính sách bảo mật tuyệt đối trong suốt thời gian thực hiện dự án",
+            "title1": "TopRate cung cấp 2 hình thức Labor",
+            "services__item1": "Hình thức 1 : Khách hàng không có mặt ở văn phòng TopRate",
+            "services__item2": "Hình thức 2 : Khách hàng có mặt ở văn phòng TopRate"
+        }
+    },
+
+    "testimonial": {
+        "name1": "Nafis Azad",
+        "job1":"Chief Product Officer",
+        "name2": "Michael Noas",
+        "job2":"Senior Manager",
+        "name3": "Santa Cao",
+        "job3":"Solution Manager",
+        "comment1": "Tôi đã luôn nghi ngờ về sự giúp đỡ từ nước ngoài cho doanh nghiệp của mình và gặp trở ngại lớn với việc nhóm của tôi cần phải có mặt tại nơi làm việc để tôi quản lý. Sự hoài nghi đó đã được loại bỏ khỏi...",
+        "comment2": "Tôi rất khuyến nghị làm việc với TopRate vì họ đã loại bỏ cảm xúc và phỏng đoán trong khâu tuyển dụng và đặt đúng ứng viên cho từng công việc phù hợp! Tại , hoạt động kinh doanh của chúng tôi cần triển khai đúng hẹn và...",
+        "comment3": "Tôi đã làm việc với TopRate gần hai năm nay. Hãy quên những gì bạn nghĩ rằng bạn biết về gia công phần mềm, vì những người này đã nâng lên một tầm cao mới. Đội ngũ mà tôi làm việc cùng đã trở thành một phần quan...",
+        "desc1": "Tôi đã luôn nghi ngờ về sự giúp đỡ từ nước ngoài cho doanh nghiệp của mình và gặp trở ngại lớn với việc nhóm của tôi cần phải có mặt tại nơi làm việc để tôi quản lý. Sự hoài nghi đó đã được loại bỏ khỏi cửa sổ kể từ khi bắt đầu làm việc với team chuyên trách của TopRate. Quá trình diễn ra liền mạch và các kỹ sư được chọn đều có khả năng cung cấp các giải pháp kỹ thuật giúp chúng tôi phát triển.",
+        "desc2": "Tôi rất khuyến nghị làm việc với TopRate vì họ đã loại bỏ cảm xúc và phỏng đoán trong khâu tuyển dụng và đặt đúng ứng viên cho từng công việc phù hợp! Tại , hoạt động kinh doanh của chúng tôi cần triển khai đúng hẹn và TopRate chắc chắn vượt quá mong đợi của chúng tôi bằng cách tăng cường đội ngũ nhân sự trong khi duy trì tiêu chuẩn cao về kỹ thuật và đạo đức làm việc. Gia công phần mềm là một lĩnh vực đang phát triển rất nhanh, vì vậy lời khuyên của chúng tôi là đảm bảo bạn làm việc với một tổ chức chuyên nghiệp, những người hoàn toàn hiểu doanh nghiệp của bạn, như Việt và nhóm điều hành tại TopRate",
+        "desc3": "ôi đã làm việc với TopRate gần hai năm nay. Hãy quên những gì bạn nghĩ rằng bạn biết về gia công phần mềm, vì những người này đã nâng lên một tầm cao mới. Đội ngũ mà tôi làm việc cùng đã trở thành một phần quan trọng trong công việc kinh doanh của tôi. Là một công ty khởi nghiệp trẻ tập trung vào năng lượng sạch và tái tạo, chúng tôi tại AOECorp phát triển khá nhanh và thường để lại một lượng lớn nợ kỹ thuật phía sau. Các kỹ sư của TopRate không chỉ giúp tôi sắp xếp các công việc thành phần để theo kịp hạn chót mà còn tái cấu trúc lại các giúp cho toàn bộ hệ thống có thể mở rộng quy mô hơn và nhiều chức năng hơn"
+    },
+
+    "customer": {
+        "heading": "Khách hàng",
+        "desc": "Các đối tác và khách hàng của chúng tôi"
+    },
+
+    "contact": {
+        "heading": "Liên hệ",
+        "address": "Tầng 20 tòa nhà IDMC Mỹ Đình, số 15 Phạm Hùng, Phường Mỹ Đình 2, Quận Nam Từ Liêm, Thành phố Hà Nội",
+        "tel": "+84 346673336",
+        "email": "tuyendung@toprate.io",
+        "date": "Thứ Hai - Thứ Sáu / 8:30 - 17:30",
+
+        "form": {
+            "company": "Công ty",
+            "name": "Tên",
+            "email": "Email",
+            "message": "Tin nhắn",
+            "send": "Gửi"
+        }
+    }
+}

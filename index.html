@@ -52,30 +52,30 @@
                     <nav class="navigation">
                         <ul class="navigation__list">
                             <li>
-                                <a href="#home" class="navigation__link">Home</a>
+                                <a href="#home" class="navigation__link" data-i18n="navigation__link.0">Home</a>
                             </li>
                             <li>
-                                <a href="#services" class="navigation__link">Services</a>
+                                <a href="#services" class="navigation__link" data-i18n="navigation__link.1">Services</a>
                             </li>
                             <li>
-                                <a href="#about" class="navigation__link">About us</a>
+                                <a href="#about" class="navigation__link" data-i18n="navigation__link.2">About us</a>
                             </li>
                             <li>
-                                <a href="#contact" class="navigation__link">Contact</a>
+                                <a href="#contact" class="navigation__link" data-i18n="navigation__link.3">Contact</a>
                             </li>
                             <li>
-                                <a href="" class="navigation__link">
-                                    <img src="./assets/icon/english.png" alt="" />
+                                <a href="#" class="navigation__link" data-lang="en">
+                                    <img src="./assets/icon/english.png" alt="English" />
                                 </a>
                             </li>
                             <li>
-                                <a href="" class="navigation__link">
-                                    <img src="./assets/icon/japan.png" alt="" />
+                                <a href="#" class="navigation__link" data-lang="jp">
+                                    <img src="./assets/icon/japan.png" alt="Japan" />
                                 </a>
                             </li>
                             <li>
-                                <a href="" class="navigation__link">
-                                    <img src="./assets/icon/vietname.png" alt="" />
+                                <a href="#" class="navigation__link" data-lang="vn">
+                                    <img src="./assets/icon/vietname.png" alt="Vietnam" />
                                 </a>
                             </li>
                         </ul>
@@ -88,7 +88,6 @@
                 </div>
             </div>
         </header>
-
         <!-- Heder Mobile -->
         <header class="header-mobile">
             <!-- Overlay -->
@@ -106,34 +105,35 @@
                         <i class="fa-solid fa-xmark"></i>
                     </div>
                 </div>
+
                 <!-- Navigation -->
                 <nav class="navigation">
                     <ul class="navigation__list">
                         <li>
-                            <a href="#home" class="navigation__link">Home</a>
+                            <a href="#home" class="navigation__link" data-i18n="navigation__link">Home</a>
                         </li>
                         <li>
-                            <a href="#services" class="navigation__link">Services</a>
+                            <a href="#services" class="navigation__link" data-i18n="navigation__link">Services</a>
                         </li>
                         <li>
-                            <a href="#about" class="navigation__link">About us</a>
+                            <a href="#about" class="navigation__link" data-i18n="navigation__link">About us</a>
                         </li>
                         <li>
-                            <a href="#contact" class="navigation__link">Contact</a>
+                            <a href="#contact" class="navigation__link" data-i18n="navigation__link">Contact</a>
                         </li>
                         <li>
-                            <a href="" class="navigation__link">
-                                <img src="./assets/icon/english.png" alt="" />
+                            <a href="#" class="navigation__link" data-lang="en">
+                                <img src="./assets/icon/english.png" alt="English" />
                             </a>
                         </li>
                         <li>
-                            <a href="" class="navigation__link">
-                                <img src="./assets/icon/japan.png" alt="" />
+                            <a href="#" class="navigation__link" data-lang="jp">
+                                <img src="./assets/icon/japan.png" alt="Japan" />
                             </a>
                         </li>
                         <li>
-                            <a href="" class="navigation__link">
-                                <img src="./assets/icon/vietname.png" alt="" />
+                            <a href="#" id="vietnam" class="navigation__link" data-lang="vn">
+                                <img src="./assets/icon/vietname.png" alt="Vietnam" />
                             </a>
                         </li>
                     </ul>
@@ -147,20 +147,21 @@
                 <div class="hero__wrap">
                     <div class="container">
                         <h1 class="hero__heading">
-                            <span class="hero__welcome">Welcome to</span>
-                            <span class="hero__toprate">TopRate Vietnam</span>
+                            <span class="hero__welcome" data-i18n="hero.welcome">Welcome to</span>
+                            <span class="hero__toprate" data-i18n="hero.toprate">TopRate Vietnam</span>
                         </h1>
                         <div class="hero__content">
-                            <p class="hero__desc">
+                            <p class="hero__desc" data-i18n="hero.desc">
                                 We are a technology company based in Vietnam, specializing in <br />
                                 Consulting & Software Development. Founded in 2019 by a group <br />
                                 of IT professionals with great experience and passion for technology. <br />
-                                Our company provides advanced technical solutions and has <br />
-                                has been helping many customers in Vietnam and around the world. We are proud of <br />
+                                Our company provides advanced technical solutions and has<br />
+                                has been helping many customers in Vietnam and around the world. We are proud of
+                                <br />
                                 the quality of our work and constantly looking for new ways to improve our know-how and
                                 capabilities.
                             </p>
-                            <a href="#" class="btn hero__explore-btn">Explore</a>
+                            <a href="#" class="btn hero__explore-btn" data-i18n="hero.explore">Explore</a>
                         </div>
                     </div>
                 </div>
@@ -170,9 +171,10 @@
                 <div class="container">
                     <!-- Services Head -->
                     <div class="services__head">
-                        <h1 class="services__heading">Services</h1>
-                        <p class="services__desc">The services we provide</p>
+                        <h1 class="services__heading" data-i18n="services.heading">Services 01</h1>
+                        <p class="services__desc" data-i18n="services.desc">The services we provide</p>
                     </div>
+
                     <!-- Service Web -->
                     <div class="services__web">
                         <div class="row services__inner">
@@ -181,20 +183,47 @@
                             </a>
                             <div class="services__content col col-md-6">
                                 <h3 class="services__sub-heading">
-                                    <span class="services__number">01</span>
-                                    Web Development
+                                    <span class="services__number" data-i18n="services.webDevelopment.number">01</span>
+                                    <span data-i18n="services.webDevelopment.title">Web Development</span>
                                 </h3>
-                                <p class="services__content-desc">
+                                <p class="services__content-desc" data-i18n="services.webDevelopment.description">
                                     We apply new technologies to develop the Web on a variety of platforms.<br />
                                     Wishing to bring the best user experience.
                                 </p>
-                                <h4 class="services__title">The web services we provide</h4>
+                                <h4 class="services__title" data-i18n="services.webDevelopment.servicesTitle">
+                                    The web services we provide
+                                </h4>
                                 <ul class="services__list">
-                                    <li class="services__item">Website designing.</li>
-                                    <li class="services__item">Developing web applications on multiple platforms.</li>
-                                    <li class="services__item">Improving web performance.</li>
-                                    <li class="services__item">Maintaining the web system.</li>
-                                    <li class="services__item">Developing e-commerce websites</li>
+                                    <li
+                                        class="services__item services__item-web"
+                                        data-i18n="services.webDevelopment.service1"
+                                    >
+                                        Website designing.
+                                    </li>
+                                    <li
+                                        class="services__item services__item-web"
+                                        data-i18n="services.webDevelopment.service2"
+                                    >
+                                        Developing web applications on multiple platforms.
+                                    </li>
+                                    <li
+                                        class="services__item services__item-web"
+                                        data-i18n="services.webDevelopment.service3"
+                                    >
+                                        Improving web performance.
+                                    </li>
+                                    <li
+                                        class="services__item services__item-web"
+                                        data-i18n="services.webDevelopment.service4"
+                                    >
+                                        Maintaining the web system.
+                                    </li>
+                                    <li
+                                        class="services__item services__item-web"
+                                        data-i18n="services.webDevelopment.service5"
+                                    >
+                                        Developing e-commerce websites
+                                    </li>
                                 </ul>
                             </div>
                         </div>
@@ -203,7 +232,9 @@
                         <div class="row services__row">
                             <!-- Column 1 -->
                             <div class="services__column col-lg-4 col-md-6 col-sm-12">
-                                <h4 class="services__row-title">Programming language</h4>
+                                <h4 class="services__row-title" data-i18n="services.webDevelopment.row-title1">
+                                    Programming language
+                                </h4>
                                 <div class="services__section">
                                     <figure>
                                         <img
@@ -246,7 +277,9 @@
 
                             <!-- Column 2 -->
                             <div class="services__column col-lg-4 col-md-6 col-sm-12">
-                                <h4 class="services__row-title">Database</h4>
+                                <h4 class="services__row-title" data-i18n="services.webDevelopment.row-title2">
+                                    Database
+                                </h4>
                                 <div class="services__section">
                                     <figure>
                                         <img class="services__img-langue" src="./assets/img/mysql.jpg" alt="" />
@@ -273,7 +306,9 @@
 
                             <!-- Column 3 -->
                             <div class="services__column col-lg-4 col-md-6 col-sm-12">
-                                <h4 class="services__row-title">Web platform</h4>
+                                <h4 class="services__row-title" data-i18n="services.webDevelopment.row-title3">
+                                    Web platform
+                                </h4>
                                 <div class="services__section">
                                     <figure>
                                         <img class="services__img-langue" src="./assets/img/laravel.jpg" alt="" />
@@ -309,10 +344,10 @@
                         <div class="row services__inner">
                             <div class="services__content col-sm-12 col-md-6">
                                 <h3 class="services__sub-heading">
-                                    <span class="services__number">02</span>
-                                    Mobile application development
+                                    <span class="services__number" data-i18n="services.mobile.number">02</span>
+                                    <span data-i18n="services.mobile.title">Mobile application development</span>
                                 </h3>
-                                <p class="services__content-desc">
+                                <p class="services__content-desc" data-i18n="services.mobile.content-desc">
                                     TopRate has extensive experience in developing public applications on the store and
                                     enterprise applications. <br />
                                     We develop applications on the platforms: iPhone, iPad, Android Smartphone, and
@@ -328,26 +363,50 @@
                         <div class="row services__row">
                             <!-- Column 1 -->
                             <div class="services__column col-lg-4 col-md-6 col-sm-12" data-aos="fade-up">
-                                <h4 class="services__row-title title-mobile">Services we provide</h4>
+                                <h4 class="services__row-title title-mobile" data-i18n="services.mobile.title-mobile1">
+                                    Services we provide
+                                </h4>
                                 <ul class="services__list">
-                                    <li class="services__item">Research – Analyze requirements</li>
-                                    <li class="services__item">User interface design</li>
-                                    <li class="services__item">Make detailed requirements, business flow</li>
-                                    <li class="services__item">Create detailed designs</li>
-                                    <li class="services__item">Build back-end, design database</li>
-                                    <li class="services__item">Build apps</li>
-                                    <li class="services__item">App release</li>
+                                    <li class="services__item" data-i18n="services.mobile.services__itemc11">
+                                        Research – Analyze requirements
+                                    </li>
+                                    <li class="services__item" data-i18n="services.mobile.services__itemc12">
+                                        User interface design
+                                    </li>
+                                    <li class="services__item" data-i18n="services.mobile.services__itemc13">
+                                        Make detailed requirements, business flow
+                                    </li>
+                                    <li class="services__item" data-i18n="services.mobile.services__itemc14">
+                                        Create detailed designs
+                                    </li>
+                                    <li class="services__item" data-i18n="services.mobile.services__itemc15">
+                                        Build back-end, design database
+                                    </li>
+                                    <li class="services__item" data-i18n="services.mobile.services__itemc16">
+                                        Build apps
+                                    </li>
+                                    <li class="services__item" data-i18n="services.mobile.services__itemc17">
+                                        App release
+                                    </li>
                                 </ul>
                             </div>
 
                             <!-- Column 2 -->
                             <div class="services__column col-lg-4 col-md-6 col-sm-12" data-aos="fade-up">
-                                <h4 class="services__row-title title-mobile">Some of developed applications</h4>
+                                <h4 class="services__row-title title-mobile" data-i18n="services.mobile.title-mobile2">
+                                    Some of developed applications
+                                </h4>
                                 <ul class="services__list">
-                                    <li class="services__item">Applications for telecommunications, ebanking</li>
-                                    <li class="services__item">Multi-media applications</li>
-                                    <li class="services__item">E-learning applications</li>
-                                    <li class="services__item">
+                                    <li class="services__item" data-i18n="services.mobile.services__itemc21">
+                                        Applications for telecommunications, ebanking
+                                    </li>
+                                    <li class="services__item" data-i18n="services.mobile.services__itemc22">
+                                        Multi-media applications
+                                    </li>
+                                    <li class="services__item" data-i18n="services.mobile.services__itemc23">
+                                        E-learning applications
+                                    </li>
+                                    <li class="services__item" data-i18n="services.mobile.services__itemc24">
                                         Enterprise applications : CRM, human resources, accounting
                                     </li>
                                 </ul>
@@ -361,7 +420,12 @@
                                 data-aos-delay="500"
                                 data-aos-offset="0"
                             >
-                                <h4 class="services__row-title title-mobile language-flatform">Language – Platform</h4>
+                                <h4
+                                    class="services__row-title title-mobile language-flatform"
+                                    data-i18n="services.mobile.title-mobile3"
+                                >
+                                    Language – Platform
+                                </h4>
                                 <div class="services__section">
                                     <figure>
                                         <img class="services__img-langue" src="./assets/img/ios.jpg" alt="" />
@@ -401,10 +465,10 @@
                         <div class="row services__inner">
                             <div class="services__content col-sm-12 col-md-6">
                                 <h3 class="services__sub-heading">
-                                    <span class="services__number">03</span>
-                                    Labor Service
+                                    <span class="services__number" data-i18n="services.labor.number">03</span>
+                                    <span data-i18n="services.labor.title">Labor Service</span>
                                 </h3>
-                                <p class="services__content-desc">
+                                <p class="services__content-desc" data-i18n="services.labor.content-desc">
                                     ODC solution for software development
                                     <br />
                                     Minimize the cost of setting up business infrastructure with <br />
@@ -416,14 +480,14 @@
                                     absolute security policies throughout the project implementation period
                                 </p>
 
-                                <h4 class="services__title services__labor-title">
+                                <h4 class="services__title services__labor-title" data-i18n="services.labor.title1">
                                     Models of Labot that TopRate offers
                                 </h4>
                                 <ul class="services__list">
-                                    <li class="services__item">
+                                    <li class="services__item" data-i18n="services.labor.services__item1">
                                         Mode 1: Customers are not present at the Toprate office.
                                     </li>
-                                    <li class="services__item">
+                                    <li class="services__item" data-i18n="services.labor.services__item2">
                                         Model 2: Customers are present at the Toprate office.
                                     </li>
                                 </ul>
@@ -453,7 +517,10 @@
                                     <i class="fa-solid fa-quote-left"></i>
                                 </div>
                                 <div class="testimonial__content">
-                                    <blockquote class="testimonial__comment line-clamp">
+                                    <blockquote
+                                        class="testimonial__comment line-clamp"
+                                        data-i18n="testimonial.comment1"
+                                    >
                                         I have always been somewhat skeptical of offshore help for my business and had a
                                         major blockage with my team needing to be in my workplace for me to manage. That
                                         skepticism has been thrown out of the window since starting work with the
@@ -461,8 +528,11 @@
                                     </blockquote>
 
                                     <h3 class="testimonial__member">
-                                        <span class="testimonial__name">Nafis Azad</span> <br />
-                                        <span class="testimonial__job">Chief Product Officer</span>
+                                        <span class="testimonial__name" data-i18n="testimonial.name1">Nafis Azad</span>
+                                        <br />
+                                        <span class="testimonial__job" data-i18n="testimonial.job1"
+                                            >Chief Product Officer</span
+                                        >
                                     </h3>
                                 </div>
                                 <div class="testimonial__avatar">
@@ -474,7 +544,7 @@
                                     <span class="testimonial__decorate"> </span>
                                     <span class="testimonial__decorate-1"> </span>
                                 </div>
-                                <p class="testimonial__desc">
+                                <p class="testimonial__desc" data-i18n="testimonial.desc1">
                                     I have always been somewhat skeptical of offshore help for my business and had a
                                     major blockage with my team needing to be in my workplace for me to manage. That
                                     skepticism has been thrown out of the window since starting work with the TopRate
@@ -491,15 +561,21 @@
                                     <i class="fa-solid fa-quote-left"></i>
                                 </div>
                                 <div class="testimonial__content">
-                                    <blockquote class="testimonial__comment line-clamp">
+                                    <blockquote
+                                        class="testimonial__comment line-clamp"
+                                        data-i18n="testimonial.comment2"
+                                    >
                                         I can highly recommend TopRate as they took the emotion and guesswork out of
                                         recruiting and placed the right candidate for the right job! At G-Soft, our
                                         business is all about timely delivery and TopRate most definitely exceeded our
                                         expectations by staffing our growth while maintaining a high...
                                     </blockquote>
                                     <h3 class="testimonial__member">
-                                        <span class="testimonial__name"> Michael Noas</span> <br />
-                                        <span class="testimonial__job">Senior Manager</span>
+                                        <span class="testimonial__name" data-i18n="testimonial.name2">
+                                            Michael Noas</span
+                                        >
+                                        <br />
+                                        <span class="testimonial__job" data-i18n="testimonial.job2">Senior Manager</span>
                                     </h3>
                                 </div>
                                 <div class="testimonial__avatar">
@@ -511,7 +587,7 @@
                                     <span class="testimonial__decorate"> </span>
                                     <span class="testimonial__decorate-1"> </span>
                                 </div>
-                                <p class="testimonial__desc line-clamp">
+                                <p class="testimonial__desc line-clamp" data-i18n="testimonial.desc2">
                                     I have always been somewhat skeptical of offshore help for my business and had a
                                     major blockage with my team needing to be in my workplace for me to manage. That
                                     skepticism has been thrown out of the window since starting work with the TopRate
@@ -528,15 +604,21 @@
                                     <i class="fa-solid fa-quote-left"></i>
                                 </div>
                                 <div class="testimonial__content">
-                                    <blockquote class="testimonial__comment line-clamp">
+                                    <blockquote
+                                        class="testimonial__comment line-clamp"
+                                        data-i18n="testimonial.comment3"
+                                    >
                                         I have been with TopRate for almost two years now. Forget what you think you
                                         know about Outsourcing, as these guys have raised the bar. The staff I have
                                         worked with have become a major part of my business. As a young startup focusing
                                         on clean and renewable...
                                     </blockquote>
                                     <h3 class="testimonial__member">
-                                        <span class="testimonial__name">Santa Cao</span> <br />
-                                        <span class="testimonial__job">Solution Manager</span>
+                                        <span class="testimonial__name" data-i18n="testimonial.name3">Santa Cao</span>
+                                        <br />
+                                        <span class="testimonial__job" data-i18n="testimonial.job3"
+                                            >Solution Manager</span
+                                        >
                                     </h3>
                                 </div>
                                 <div class="testimonial__avatar">
@@ -548,7 +630,7 @@
                                     <span class="testimonial__decorate"> </span>
                                     <span class="testimonial__decorate-1"> </span>
                                 </div>
-                                <p class="testimonial__desc">
+                                <p class="testimonial__desc" data-i18n="testimonial.desc3">
                                     I have been with TopRate for almost two years now. Forget what you think you know
                                     about Outsourcing, as these guys have raised the bar. The staff I have worked with
                                     have become a major part of my business. As a young startup focusing on clean and
@@ -567,8 +649,8 @@
             <section class="customers">
                 <div class="container">
                     <div class="customers__wrap">
-                        <h1 class="customer__heading">Customers</h1>
-                        <p class="customer__desc">Our partners and customers</p>
+                        <h1 class="customer__heading" data-i18n="customer.heading">Customers</h1>
+                        <p class="customer__desc" data-i18n="customer.desc">Our partners and customers</p>
                         <!-- row-1 -->
                         <div class="row customers__row" data-aos="fade-up">
                             <div class="col customers__col-brand">
@@ -632,29 +714,33 @@
             <!-- Contact -->
             <section id="contact" class="contact">
                 <div class="container">
-                    <h1 class="contact__heading">Contact</h1>
+                    <h1 class="contact__heading" data-i18n="contact.heading">Contact</h1>
                     <div class="row contact__row">
                         <!-- Col-1 -->
                         <div class="contact__col col col-sm-12 col-md-6">
                             <div class="contact__content" data-aos="fade-up">
                                 <div class="contact__box">
                                     <img src="./assets/icon/location-1.png" alt="" class="contact__icon" />
-                                    <p class="contact__address contact__desc">
+                                    <p class="contact__address contact__desc" data-i18n="contact.address">
                                         20th floor, IDMC My Dinh building, 15 Pham Hung, My Dinh 2 ward, Nam Tu Liem
                                         district, Hanoi city
                                     </p>
                                 </div>
                                 <div class="contact__box">
                                     <img src="./assets/icon/hotline-1.png" alt="" class="contact__icon" />
-                                    <p class="contact__tel contact__desc">+84 346673336</p>
+                                    <p class="contact__tel contact__desc" data-i18n="contact.tel">+84 346673336</p>
                                 </div>
                                 <div class="contact__box">
                                     <img src="./assets/icon/email-1.png" alt="" class="contact__icon" />
-                                    <p class="contact__email contact__desc">tuyendung@toprate.io</p>
+                                    <p class="contact__email contact__desc" data-i18n="contact.email">
+                                        tuyendung@toprate.io
+                                    </p>
                                 </div>
                                 <div class="contact__box">
                                     <img src="./assets/icon/time.png" alt="" class="contact__icon" />
-                                    <p class="contact__date contact__desc">Monday - Friday / 8:30 - 17:30</p>
+                                    <p class="contact__date contact__desc" data-i18n="contact.date">
+                                        Monday - Friday / 8:30 - 17:30
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -662,13 +748,31 @@
                         <div class="contact__col col col-sm-12 col-md-6">
                             <form class="contact__form">
                                 <div class="contact__group">
-                                    <input type="text" class="contact__input" placeholder="Company" required />
+                                    <input
+                                        type="text"
+                                        class="contact__input"
+                                        placeholder=""
+                                        data-i18n="contact.form.company"
+                                        required
+                                    />
                                 </div>
                                 <div class="contact__group">
-                                    <input type="text" class="contact__input" placeholder="Name" required />
+                                    <input
+                                        type="text"
+                                        class="contact__input"
+                                        placeholder=""
+                                        data-i18n="contact.form.name"
+                                        required
+                                    />
                                 </div>
                                 <div class="contact__group">
-                                    <input type="email" class="contact__input" placeholder="Email" required />
+                                    <input
+                                        type="email"
+                                        class="contact__input"
+                                        placeholder=""
+                                        data-i18n="contact.form.email"
+                                        required
+                                    />
                                 </div>
                                 <div class="contact__group">
                                     <textarea
@@ -676,10 +780,11 @@
                                         name=""
                                         id=""
                                         rows="4"
-                                        placeholder="Message"
+                                        placeholder=""
+                                        data-i18n="contact.form.message"
                                     ></textarea>
                                 </div>
-                                <button class="btn contact__send">Send</button>
+                                <button class="btn contact__send" data-i18n="contact.form.send">Send</button>
                             </form>
                         </div>
                     </div>
@@ -703,30 +808,35 @@
                 <nav class="navigation footer__nav">
                     <ul class="navigation__list">
                         <li>
-                            <a href="#home" class="navigation__link">Home</a>
+                            <a href="#home" class="navigation__link" data-i18n="navigation__link.0">Home</a>
                         </li>
                         <li>
-                            <a href="#services" class="navigation__link">Services</a>
+                            <a href="#services" class="navigation__link" data-i18n="navigation__link.1">Services</a>
                         </li>
                         <li>
-                            <a href="#about" class="navigation__link">About us</a>
+                            <a href="#about" class="navigation__link" data-i18n="navigation__link.2">About us</a>
                         </li>
                         <li>
-                            <a href="#contact" class="navigation__link navigation__active">Contact</a>
+                            <a
+                                href="#contact"
+                                class="navigation__link navigation__active"
+                                data-i18n="navigation__link.3"
+                                >Contact</a
+                            >
                         </li>
                         <li>
-                            <a href="" class="navigation__link">
-                                <img src="./assets/icon/english.png" alt="" />
+                            <a href="#" class="navigation__link" data-lang="en">
+                                <img src="./assets/icon/english.png" alt="English" />
                             </a>
                         </li>
                         <li>
-                            <a href="" class="navigation__link">
-                                <img src="./assets/icon/japan.png" alt="" />
+                            <a href="#" class="navigation__link" data-lang="jp">
+                                <img src="./assets/icon/japan.png" alt="Japan" />
                             </a>
                         </li>
                         <li>
-                            <a href="" class="navigation__link">
-                                <img src="./assets/icon/vietname.png" alt="" />
+                            <a href="#" class="navigation__link" data-lang="vn">
+                                <img src="./assets/icon/vietname.png" alt="Vietnam" />
                             </a>
                         </li>
                     </ul>
@@ -748,6 +858,7 @@
         <script>
             AOS.init();
         </script>
+
         <script src="./main.js"></script>
     </body>
 </html>

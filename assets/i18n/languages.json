@@ -1,0 +1,177 @@
+{
+    "en": {
+        "navigation__link": ["Home", "Services", "About us", "Contact"],
+        "hero": {
+            "welcome": "Welcome to",
+            "toprate": "TopRate Vietnam",
+            "desc": "We are a technology company based in Vietnam, specializing in <br />Consulting & Software Development. Founded in 2019 by a group <br />of IT professionals with great experience and passion for technology. <br />Our company provides advanced technical solutions and has<br />been helping many customers in Vietnam and around the world. We are proud of<br />the quality of our work and constantly looking for new ways to improve our know-how and capabilities.",
+            "explore": "Explore"
+        },
+        "services": {
+            "heading": "Services",
+            "desc": "The services we provide",
+            "webDevelopment": {
+                "title": "Web Development",
+                "number": "01",
+                "description": "We apply new technologies to develop the Web on a variety of platforms. Wishing to bring the best user experience.",
+                "servicesTitle": "The web services we provide",
+                "service1": "Website designing.",
+                "service2": "Developing web applications on multiple platforms.",
+                "service3": "Improving web performance.",
+                "service4": "Maintaining the web system",
+                "service5": "Developing e-commerce websites.",
+                "row-title1": "Programming language",
+                "row-title2": "Database",
+                "row-title3": "Web platform"
+            },
+            "mobile": {
+                "number": "02",
+                "title": "Mobile application development",
+                "content-desc": "TopRate has extensive experience in developing public applications on the  store and enterprise applications. <br>   We develop applications on the platforms: iPhone, iPad, Android Smartphone, and Android Tablet.",
+                "title-mobile1": "Các dịch vụ cung cấp:",
+                "title-mobile2": "Một số app đã phát triển",
+                "title-mobile3": "Ngôn ngữ – Nền tảng",
+                "services__itemc11": "Research – Analyze requirements",
+                "services__itemc12": "User interface design",
+                "services__itemc13": "Make detailed requirements, business flow",
+                "services__itemc14": "Create detailed designs",
+                "services__itemc15": "Build back-end, design database",
+                "services__itemc16": "Build apps",
+                "services__itemc17": "App release",
+                "services__itemc21": "Applications for telecommunications, ebanking",
+                "services__itemc22": "Multi-media applications",
+                "services__itemc23": "E-learning applications",
+                "services__itemc24": "Enterprise applications : CRM, human resources, accounting"
+            },
+            "labor": {
+                "number": "03",
+                "title": "Labor Service",
+                "content-desc": "ODC solution for software development <br> Minimize the cost of setting up business infrastructure with <br>strong and modern infrastructure team and equipment. Toprate provides abundant IT human resources with <br>high level. ODCs always have technical support, and <br>absolute security policies throughout the project implementation period",
+                "title1": "Models of Labot that TopRate offers",
+                "services__item1": "Mode 1: Customers are not present at the Toprate office.",
+                "services__item2": "Model 2: Customers are present at the Toprate office."
+            }
+        },
+
+        "testimonial": {
+            "comment1": "I have always been somewhat skeptical of offshore help for my business and had a major blockage with my team needing to be in my workplace for me to manage. That skepticism has been thrown out of the window since starting work with the TopRate dedicated team. The...",
+            "comment2": "I can highly recommend TopRate as they took the emotion and guesswork out of recruiting and placed the right candidate for the right job! At G-Soft, our business is all about timely delivery and TopRate most definitely exceeded our expectations by staffing our growth while maintaining a high...",
+            "comment3": "I have been with TopRate for almost two years now. Forget what you think you know about Outsourcing, as these guys have raised the bar. The staff I have worked with have become a major part of my business. As a young startup focusing on clean and renewable...",
+            "desc1": "I have always been somewhat skeptical of offshore help for my business and had a major blockage with my team needing to be in my workplace for me to manage. That skepticism has been thrown out of the window since starting work with the TopRate dedicated team. The process has been seamless and the selected engineers were all capable of delivering technical solutions that help us prevail.",
+            "desc2": "I can highly recommend TopRate as they took the emotion and guesswork out of recruiting and placed the right candidate for the right job! At G-Soft, our business is all about timely delivery and TopRate most definitely exceeded our expectations by staffing our growth while maintaining a high standard of technicality and work ethics. Outsourcing is a very fast-growing sector, so our advice is to make sure you work with a professional organization who totally understands your business, like Viet and the executive team at TopRate.",
+            "desc3": "I have been with TopRate for almost two years now. Forget what you think you know about Outsourcing, as these guys have raised the bar. The staff I have worked with have become a major part of my business. As a young startup focusing on clean and renewable energy, we at AOECorp move rather quickly and often leave a pile of technical debts trailing behind. TopRate engineers not only helped me sort the moving pieces out to keep up with the deadlines but also refactor the baselines to make the whole system more scalable and extensible."
+        },
+        
+        "customer": {
+            "heading": "Customers",
+            "desc": "Our partners and customers"
+        },
+
+        "contact": {
+            "heading": "Contact",
+            "address": "20th floor, IDMC My Dinh building, 15 Pham Hung, My Dinh 2 ward, Nam Tu Liem district, Hanoi city",
+            "tel": "+84 346673336",
+            "email": "tuyendung@toprate.io",
+            "date": "Monday - Friday / 8:30 - 17:30",
+            
+            "form": {
+                "company": "Company",
+                "name": "Name",
+                "email": "Email",
+                "message": "Message",
+                "send": "Send"
+            }
+        }
+    },
+    "jp": {
+        "navigation__link": ["ホーム", "サービス", "情報", "連絡"],
+        "hero": {
+            "welcome": "ようこそ",
+            "toprate": "TopRate ベトナム",
+            "desc": "私たちは、ベトナムを拠点とするテクノロジー企業で、コンサルティングとソフトウェア開発を専門としています。2019年にITの専門家グループによって設立され、<br />技術への大きな経験と情熱を持っています。私たちの会社は高度な技術ソリューションを提供し、<br />ベトナムおよび世界中のお客様を支援しています。私たちは仕事の質に誇りを持ち、<br />ノウハウと能力を向上させる新しい方法を常に模索しています。",
+            "explore": "探る"
+        }
+    },
+    "vn": {
+        "navigation__link": ["Trang chủ", "Dịch vụ", "Giới thiệu", "Liên hệ"],
+        "hero": {
+            "welcome": "Giới thiệu về ",
+            "toprate": "TopRate",
+            "desc": "Chúng tôi là một công ty công nghệ có trụ sở tại Việt Nam, chuyên về <br> Tư vấn & Phát triển Phần mềm. Được thành lập vào năm 2019 bởi một nhóm <br> của các chuyên gia CNTT có kinh nghiệm và niềm đam mê lớn đối với công nghệ. <br> Công ty chúng tôi cung cấp các giải pháp kỹ thuật tiên tiến đã và đang giúp đỡ rất nhiều khách hàng tại Việt Nam và trên thế giới. Chúng tôi tự hào về <br> chất lượng công việc của chúng tôi và không ngừng tìm kiếm những cách thức mới để cải thiện bí quyết và năng lực của chúng tôi.",
+            "explore": "Xem thêm"
+        },
+        "services": {
+            "heading": "Dịch vụ",
+            "desc": "Dịch vụ phát triển của TopRate",
+            "webDevelopment": {
+                "title": "Phát triển Web",
+                "number": "01",
+                "description": "Với phương châm lấy khách hàng là trung tâm, Toprate đã tư vấn, xây dựng, phát triển và triển khai các ứng dụng web trên các nền tảng đa dạng khác nhau, phù hợp với từng khách hàng. Qua đó giúp đối tác tiếp cận nhanh nhất với khách hàng của mình, quảng bá được các sản phẩm, dịch vụ chất lượng và tin cậy của mình tới khách hàng.",
+                "servicesTitle": "Các dịch vụ mà chúng tôi cung cấp:",
+                "service1": "Giải pháp tư vấn và thiết kế các ứng dụng web",
+                "service2": "Phát triển các ứng dụng web đa nền tảng",
+                "service3": "Bảo trì, nâng cấp và tối ưu các ứng dụng web",
+                "row-title1": "Ngôn ngữ lập trình",
+                "row-title2": "Cơ sở dữ liệu",
+                "row-title3": "Nền tảng web"
+            },
+            "mobile": {
+                "number": "02",
+                "title": "Phát triển ứng dụng di động",
+                "content-desc": "Chúng tôi chuyên phát triển các ứng dụng native trên các nền tảng di động khác nhau, với hệ thống backends đa dạng, ngoài ra chúng tôi còn cung cấp dịch vụ phát triển ứng dụng cross-platform với trải nghiệm người dùng và giao diện chất lượng cao.",
+                "title-mobile1": "Các dịch vụ cung cấp:",
+                "title-mobile2": "Một số app đã phát triển",
+                "title-mobile3": "Ngôn ngữ – Nền tảng",
+                "services__itemc11": "Nghiên cứu – Phân tích yêu cầu",
+                "services__itemc12": "Thiết kế giao diện người dùng",
+                "services__itemc13": "Làm chi tiết yêu cầu, luồng nghiệp vụ",
+                "services__itemc14": "Tạo thiết kế chi tiết",
+                "services__itemc15": "Xây dựng BackEnd, thiết kế cơ sở dữ liệu",
+                "services__itemc16": "Xây dựng ứng dụng",
+                "services__itemc17": "Phát hành ứng dụng",
+                "services__itemc21": "Các ứng dụng về viễn thông, ngân hàng",
+                "services__itemc22": "Các ứng dụng multi-media",
+                "services__itemc23": "Các ứng dụng về học trực tuyến",
+                "services__itemc24": "Các ứng dụng nội bộ của doanh nghiệm : chấm công, nhân sự, kế toán"
+            },
+            "labor": {
+                "number": "03",
+                "title": "Dịch vụ Labor",
+                "content-desc": "Giải pháp ODC cho việc phát triển phần mềm <br> Giảm thiểu chi phí thiết lập cơ sở hạ tầng kinh doanh với <br> đội ngũ và trang thiết bị cơ sở hạ tầng mạnh mẽ và hiện đại. Toprate cung cấp <br> nguồn nhân lực CNTT dồi dào với  <br> trình độ cao. Các ODC luôn có sự hỗ trợ về kỹ thuật, đồng thời có <br> các chính sách bảo mật tuyệt đối trong suốt thời gian thực hiện dự án",
+                "title1": "TopRate cung cấp 2 hình thức Labor",
+                "services__item1": "Hình thức 1 : Khách hàng không có mặt ở văn phòng TopRate",
+                "services__item2": "Hình thức 2 : Khách hàng có mặt ở văn phòng TopRate"
+            }
+        },
+
+        "testimonial": {
+            "comment1": "Tôi đã luôn nghi ngờ về sự giúp đỡ từ nước ngoài cho doanh nghiệp của mình và gặp trở ngại lớn với việc nhóm của tôi cần phải có mặt tại nơi làm việc để tôi quản lý. Sự hoài nghi đó đã được loại bỏ khỏi...",
+            "comment2": "Tôi rất khuyến nghị làm việc với TopRate vì họ đã loại bỏ cảm xúc và phỏng đoán trong khâu tuyển dụng và đặt đúng ứng viên cho từng công việc phù hợp! Tại , hoạt động kinh doanh của chúng tôi cần triển khai đúng hẹn và...",
+            "comment3": "Tôi đã làm việc với TopRate gần hai năm nay. Hãy quên những gì bạn nghĩ rằng bạn biết về gia công phần mềm, vì những người này đã nâng lên một tầm cao mới. Đội ngũ mà tôi làm việc cùng đã trở thành một phần quan...",
+            "desc1": "Tôi đã luôn nghi ngờ về sự giúp đỡ từ nước ngoài cho doanh nghiệp của mình và gặp trở ngại lớn với việc nhóm của tôi cần phải có mặt tại nơi làm việc để tôi quản lý. Sự hoài nghi đó đã được loại bỏ khỏi cửa sổ kể từ khi bắt đầu làm việc với team chuyên trách của TopRate. Quá trình diễn ra liền mạch và các kỹ sư được chọn đều có khả năng cung cấp các giải pháp kỹ thuật giúp chúng tôi phát triển.",
+            "desc2": "Tôi rất khuyến nghị làm việc với TopRate vì họ đã loại bỏ cảm xúc và phỏng đoán trong khâu tuyển dụng và đặt đúng ứng viên cho từng công việc phù hợp! Tại , hoạt động kinh doanh của chúng tôi cần triển khai đúng hẹn và TopRate chắc chắn vượt quá mong đợi của chúng tôi bằng cách tăng cường đội ngũ nhân sự trong khi duy trì tiêu chuẩn cao về kỹ thuật và đạo đức làm việc. Gia công phần mềm là một lĩnh vực đang phát triển rất nhanh, vì vậy lời khuyên của chúng tôi là đảm bảo bạn làm việc với một tổ chức chuyên nghiệp, những người hoàn toàn hiểu doanh nghiệp của bạn, như Việt và nhóm điều hành tại TopRate",
+            "desc3": "ôi đã làm việc với TopRate gần hai năm nay. Hãy quên những gì bạn nghĩ rằng bạn biết về gia công phần mềm, vì những người này đã nâng lên một tầm cao mới. Đội ngũ mà tôi làm việc cùng đã trở thành một phần quan trọng trong công việc kinh doanh của tôi. Là một công ty khởi nghiệp trẻ tập trung vào năng lượng sạch và tái tạo, chúng tôi tại AOECorp phát triển khá nhanh và thường để lại một lượng lớn nợ kỹ thuật phía sau. Các kỹ sư của TopRate không chỉ giúp tôi sắp xếp các công việc thành phần để theo kịp hạn chót mà còn tái cấu trúc lại các giúp cho toàn bộ hệ thống có thể mở rộng quy mô hơn và nhiều chức năng hơn"
+        },
+        
+        "customer": {
+            "heading": "Khách hàng",
+            "desc": "Các đối tác và khách hàng của chúng tôi"
+        },
+
+        "contact": {
+            "heading": "Liên hệ",
+            "address": "Tầng 20 tòa nhà IDMC Mỹ Đình, số 15 Phạm Hùng, Phường Mỹ Đình 2, Quận Nam Từ Liêm, Thành phố Hà Nội",
+            "tel": "+84 346673336",
+            "email": "tuyendung@toprate.io",
+            "date": "Thứ Hai - Thứ Sáu / 8:30 - 17:30",
+
+            "form": {
+                "company": "Công ty",
+                "name": "Tên",
+                "email": "Email",
+                "message": "Tin nhắn",
+                "send": "Gửi"
+            }
+        }
+    }
+}

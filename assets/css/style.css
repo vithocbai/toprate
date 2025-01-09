@@ -25,9 +25,9 @@ a {
 }
 
 .btn {
-    max-width: 110px;
-    display: flex;
-    align-items: center;
+    display: inline-block;
+    min-width: 110px;
+    text-align: center;
     padding: 12px 24px;
     font-size: 2rem;
     font-weight: 500;
@@ -173,6 +173,7 @@ select {
 }
 
 .hero__content {
+    text-align: center;
     padding: 0 120px;
 }
 
@@ -255,7 +256,7 @@ select {
 .services__title {
     font-weight: 600;
 }
-
+    
 .services__item {
     display: flex;
     color: var(--primary-color);
@@ -269,6 +270,10 @@ select {
     content: url("https://toprate.io/wp-content/uploads/2022/04/dau-cong-1.png");
     margin-right: 10px;
     padding: 3px 0px 3px 10px;
+}
+
+.hide-before::before {
+    content: none !important; /* Xóa nội dung của ::before */
 }
 
 /* Services__programming-language */
@@ -530,6 +535,10 @@ select {
     padding: 20px;
 }
 
+.contact__form {
+    text-align: center;
+}
+
 .contact__box {
     display: flex;
     align-items: center;
@@ -579,6 +588,7 @@ select {
     font-size: 1.5rem;
     min-width: 80px;
     height: 40px;
+    cursor: pointer;
 }
 
 /* === Footer === */
