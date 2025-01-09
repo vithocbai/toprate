@@ -256,7 +256,7 @@ select {
 .services__title {
     font-weight: 600;
 }
-    
+
 .services__item {
     display: flex;
     color: var(--primary-color);
@@ -270,10 +270,6 @@ select {
     content: url("https://toprate.io/wp-content/uploads/2022/04/dau-cong-1.png");
     margin-right: 10px;
     padding: 3px 0px 3px 10px;
-}
-
-.hide-before::before {
-    content: none !important; /* Xóa nội dung của ::before */
 }
 
 /* Services__programming-language */
